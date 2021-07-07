@@ -25,6 +25,9 @@ code {
   width: 20%;
   border: 1px solid white;
 }
+.square:hover {
+  cursor: pointer;
+}
 
 .random {
   background-color: green;

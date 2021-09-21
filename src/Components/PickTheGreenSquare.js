@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import { AnimatePresence, motion } from "framer-motion";
 
-function App() {
+function PickGreenSquare() {
   const [squares, setSquares] = useState([]);
   const [rows, setRows] = useState([]);
   const [start, setStart] = useState(false);
@@ -186,4 +186,4 @@ function App() {
   );
 }
 
-export default App;
+export default PickGreenSquare;

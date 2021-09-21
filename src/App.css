@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: greenyellow;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -72,13 +72,16 @@ button.btn-primary:hover {
   cursor: pointer;
 }
 .easy {
-  color: green;
+  background: linear-gradient(15deg,#04ea00,#00d17d);
 }
 .medium {
-  color: #8B8000;
+  background: linear-gradient(10deg,#fa0,#ff6a00);
 }
 .hard {
-  color: red;
+  background: linear-gradient(10deg,#e50000,#FF0000);
+}
+btn-primary {
+  color: #101315;
 }
 .square {
   transition: 0.1s all;
